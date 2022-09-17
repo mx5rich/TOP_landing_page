@@ -1,1 +1,2 @@
 # TOP_landing_page
+This is my first solo project that I will be guided to create by The Odin Project.  I hope I am able to get the results I want to achieve and I hope to learn more about styling my html with css.  I am confident in my skills at this time and am excited to complete this project so I can begin studying Javascript next!
