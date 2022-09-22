@@ -7,8 +7,18 @@ body {
     margin: 0; 
 }
 
-img {
+a {
+    color: blue;
+    text-decoration: solid;
+}
+
+.wolf {
     width: 800px;
+}
+
+img:not(.wolf) {
+    width: 200px;
+    height: 200px;
 }
 
 header,
@@ -71,8 +81,90 @@ h2 {
 }
 
 footer {
-    color: white;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #F9FAF8;
+
+} 
+
+.information_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 100px;
 }
 
+.column {
+    max-width: 200px;
+}
+
+.photos_row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+}
+
+.text {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.sec_middle_content {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.thor {
+    text-align: end;
+    font-weight: bold;
+}
+
+.three_middle_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 100px 200px;
+    color: #f9faf8;
+    
+}
+
+.three_header {
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 0%;
+}
+
+.three_details {
+    color: #e5e7eb;
+}
+
+.bottom_button {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: auto;
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 8px;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
